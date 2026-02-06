@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.pytest_cache/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Backend
+backend/uploads/*
+!backend/uploads/.gitkeep
+csms.db
